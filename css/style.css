@@ -10,7 +10,7 @@
 }
 /**----------------HEADER--------------*/
 header{
-    background-color: brown;
+    background-color: rgba(240, 240, 240, 0.959);
     padding: 10px;
     position: sticky;
     top: 0;
@@ -117,7 +117,7 @@ header nav ul li a{
     flex-wrap: wrap;
 }
 .productos h3{
-    background-color: rgb(215, 193, 193);
+    background-color:  rgba(240, 240, 240, 0.959);
     color: black;
     text-align: center;
     padding: 20px;
@@ -186,7 +186,7 @@ header nav ul li a{
 
 /**-----------------------FOOTER--------------*/
 footer{
-    background-color: rgba(165, 42, 42, 0.717);
+    background-color:  rgba(240, 240, 240, 0.959);
     display: flex;
     justify-content: space-between;
     align-items: center;
