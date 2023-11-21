@@ -1,0 +1,27 @@
+header{
+    background-color: brown;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    h1{
+    color: black;
+    font-size: 40px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                margin: 10px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

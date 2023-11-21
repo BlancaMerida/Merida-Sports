@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Merida Sports</h1>
@@ -23,34 +25,33 @@
         </nav>
     </header>
     <main>
-        <form>
-            <h2>Contacto</h2>
-            <div class="input-group">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="mane" id="nombre" placeholder="Nombre"> 
+        <div class="contactus">
+            <form>
+                <h2>Contacto</h2>
+                <div class="input-group">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="mane" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <label for="phone">Telefono</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="" id="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="messaje">Escribe tu comentario</label>
+                        <textarea name="messaje" id="messaje" cols="30" rows="5"
+                            placeholder="Escribe tu comentario"></textarea>
+                    </div>
+                    <div>
+                        <input class="btn" type="submit" value="Enviar">
+                    </div>
                 </div>
-                <div>
-                    <label for="phone">Telefono</label>
-                    <input type="tel" name="phone" id="phone" placeholder="Telefono">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="" id="email" placeholder="Email">
-                </div>
-                <div>
-                    <label for="messaje">Escribe tu comentario</label>
-                    <textarea name="messaje" id="messaje" cols="30" rows="5" placeholder="Escribe tu comentario"></textarea>
-                </div>
-                <div class="from-txt">
-                    <a href="#">politicas y privacidad</a>
-                    <a href="#">terminos y condiciones</a>
-                </div>
-                <div>
-                    <input class="btn" type="submit" value="Enviar">
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
     <footer>
         <h3>Merida Sports</h3>
@@ -69,4 +70,5 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
