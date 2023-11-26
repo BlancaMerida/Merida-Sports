@@ -135,3 +135,37 @@
         }
     }
 }
+.form-register{
+    width: 500px;
+    background: #E5E7E9;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    margin: 30px;
+    form{
+        h2{
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+            .controls{
+                width: 100%;
+                background: rgba(240, 240, 240, 0.959);
+                padding: 10px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1px solid #F2F4F4;
+                font-size: 18px;
+            .butoon{
+                width: 100%;
+                background: #F2F4F4;
+                border: none;
+                padding: 12px;
+                color: black;
+                margin: 10px 0;
+                font-size: 20px;
+            }    
+            }
+        }
+    }
+}

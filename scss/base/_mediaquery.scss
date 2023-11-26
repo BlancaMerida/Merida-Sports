@@ -78,6 +78,11 @@
         }
     }
 }
+@media screen and (max-width:560px) {
+    .form-register{
+        width: 400px;
+    }
+}
 @media screen and (max-width:540px) {
     .informacion{
         flex-direction: column;
@@ -110,5 +115,10 @@
             font-size: 18px;
             text-align: center;
         }
+    }
+}
+@media screen and (max-width:440px){
+    .form-register{
+        width: 300px;
     }
 }

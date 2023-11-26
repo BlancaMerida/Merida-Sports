@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
 
 /**-------------RESET--------------*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@
 }
 /**----------------HEADER--------------*/
 header{
-    background-color: rgba(240, 240, 240, 0.959);
+    background-color: #E5E7E9;
     padding: 10px;
     position: sticky;
     top: 0;
@@ -117,7 +117,7 @@ header nav ul li a{
     flex-wrap: wrap;
 }
 .productos h3{
-    background-color:  rgba(240, 240, 240, 0.959);
+    background-color: #E5E7E9;
     color: black;
     text-align: center;
     padding: 20px;
@@ -183,14 +183,46 @@ header nav ul li a{
     align-items: center;
     font-size: 50px;
 }
-
+.form-register{
+    width: 500px;
+    background: #E5E7E9;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    margin: 30px;
+}
+.form-register h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.controls{
+    width: 100%;
+    background: rgba(240, 240, 240, 0.959);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #F2F4F4;
+    font-size: 18px;
+}
+.form-register .button{
+    width: 100%;
+    background: #F2F4F4;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 10px 0;
+    font-size: 20px;
+}
 /**-----------------------FOOTER--------------*/
 footer{
-    background-color:  rgba(240, 240, 240, 0.959);
+    background-color: #E5E7E9;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: relative;
 }
 footer h3{
     font-size: 30px;
@@ -281,6 +313,11 @@ footer ul li a{
         font-size: 22px;
     }
 }
+@media screen and (max-width:560px) {
+    .form-register{
+        width: 400px;
+    }
+}
 @media screen and (max-width:540px) {
     .informacion{
         flex-direction: column;
@@ -309,5 +346,9 @@ footer ul li a{
         font-size: 18px;
         text-align: center;
     }
-    
+}
+@media screen and (max-width:440px){
+    .form-register{
+        width: 300px;
+    }
 }
